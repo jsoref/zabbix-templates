@@ -1,0 +1,3 @@
+# Zabbix Agent PDNS Recursor
+Defaults:zabbix !requiretty
+zabbix ALL=NOPASSWD: /usr/bin/rec_control
