@@ -3507,4 +3507,27 @@ https://doc.powerdns.com/md/common/security/#security-polling&#13;
             <screens/>
         </template>
     </templates>
+    <value_maps>
+        <value_map>
+            <name>PowerDNS Security Status</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Resolution failure</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>OK</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Upgrade recommended</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>Upgrade mandatory</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
 </zabbix_export>
